@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfoEvo", "PerfoEvo.csproj", "{0DDC43EA-F0D7-43B0-BBE3-680684AC9DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DDC43EA-F0D7-43B0-BBE3-680684AC9DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDC43EA-F0D7-43B0-BBE3-680684AC9DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDC43EA-F0D7-43B0-BBE3-680684AC9DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDC43EA-F0D7-43B0-BBE3-680684AC9DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD2C7BE1-45C3-46E1-9593-9CF29C267B2D}
+	EndGlobalSection
+EndGlobal
