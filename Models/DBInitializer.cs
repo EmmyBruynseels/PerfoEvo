@@ -5,16 +5,19 @@ using System.Threading.Tasks;
 
 namespace PerfoEvo.Models
 {
-	public class DBInitializer
-	{
-		public static void Initialize(PerfoEvoContext context)
-		{
-			context.Database.EnsureCreated();
+    public class DBInitializer
+    {
+        public static void Initialize(PerfoEvoContext context)
+        {
 
-			if (context.Gezondheid.Any())
-			{
-				return;
-			}
-		}
-	}
+
+            context.Database.EnsureCreated();
+            return;
+
+            //	if (context.Gezondheid.Any())
+            //	{
+            //		return;
+            //	}
+        }
+    }
 }
